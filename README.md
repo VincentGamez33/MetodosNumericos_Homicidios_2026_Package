@@ -1,4 +1,4 @@
-# Análisis Numérico de la Tasa de Homicidios en México (2015-2025)
+# Análisis Numérico de la Tasa de Homicidios en México (2015-2025).
 
 Este repositorio contiene el ecosistema completo del proyecto final para la asignatura de **Métodos Numéricos II** en la Escuela Superior de Física y Matemáticas (**ESFM-IPN**). El trabajo integra un artículo de investigación académica con una implementación robusta en Python para el análisis de series de tiempo sociológicas.
 
