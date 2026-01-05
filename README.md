@@ -5,15 +5,15 @@ Este repositorio contiene el ecosistema completo del proyecto final para la asig
 ## 🖼️ Vista Previa del Proyecto
 
 <p align="center">
-  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p1.pdf" width="800" alt="Portada del Artículo">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p1.jpg" width="600" alt="Portada del Artículo">
 </p>
 
 <p align="center">
-  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p11.pdf" width="450" alt="Análisis de Velocidad">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p11.jpg" width="600" alt="Análisis de Velocidad">
 </p>
 
 <p align="center">
-  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p12.pdf" width="350" alt="Validación Numérica">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p12.jpg" width="600" alt="Validación Numérica">
 </p>
 
 ---
