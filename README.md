@@ -2,38 +2,49 @@
 
 Este repositorio contiene el ecosistema completo del proyecto final para la asignatura de **Métodos Numéricos II** en la Escuela Superior de Física y Matemáticas (**ESFM-IPN**). El trabajo integra un artículo de investigación académica con una implementación robusta en Python para el análisis de series de tiempo sociológicas.
 
+## 🖼️ Vista Previa del Proyecto
+
+<p align="center">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p1.pdf" width="800" alt="Portada del Artículo">
+</p>
+
+<p align="center">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p11.pdf" width="450" alt="Análisis de Velocidad">
+</p>
+
+<p align="center">
+  <img src="Github/Articulo_Investigacion_Chavarria_Gamez_Vicente_2026_p12.pdf" width="350" alt="Validación Numérica">
+</p>
+
+---
+
 ## 📊 Estructura del Proyecto
 
 El repositorio está organizado siguiendo el flujo metodológico del estudio:
 
 - **📄 Documentación**: `Articulo_Investigacion_Chavarria_Gamez.pdf` (Consultar para el rigor matemático y análisis de resultados).
 - **💻 Code/Python/**:
-    - `01-Limpieza Datos/`: Pre-procesamiento de la base oficial del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).
-    - `02-Interpolacion/`: Implementación de Lagrange global y por bloques para el análisis del Fenómeno de Runge.
+    - `01-Limpieza Datos/`: Pre-procesamiento de la base oficial del SESNSP.
+    - `02-Interpolacion/`: Análisis del Fenómeno de Runge mediante Lagrange global y por bloques.
     - `03-Splines/`: Desarrollo de **Splines Cúbicos Naturales** ($C^2$).
-    - `04-Diferenciacion/`: Cálculo de tasas de cambio instantáneas mediante esquemas de 5 puntos ($O(h^4)$).
-    - `05-Integracion/`: Cuadratura numérica (Riemann, Trapecio y Simpson 1/3) para el cálculo de impacto acumulado.
-- **📁 Fuente LaTeX**: Archivos `.tex`, clases y fuentes necesarias para la compilación del documento.
+    - `04-Diferenciacion/`: Cálculo de tasas de cambio instantáneas con esquemas de orden $O(h^4)$.
+    - `05-Integracion/`: Cuadratura numérica (Riemann, Trapecio y Simpson 1/3).
+- **📁 Fuente LaTeX**: Archivos `.tex`, clases y fuentes para compilación.
 
 ## 🛠️ Instalación y Uso
 
 ### Python (Análisis de Datos)
-Los scripts están diseñados para ser ejecutables de manera modular.
 1. Clonar el repositorio.
 2. Instalar dependencias: `pip install -r requirements.txt`.
-3. Ejecutar los scripts en orden numérico para replicar el análisis desde la limpieza de datos hasta la integración final.
+3. Ejecutar los scripts en orden numérico para replicar el análisis.
 
 ### Edición y Compilación de LaTeX
-El artículo fue escrito y compilado originalmente en **Overleaf**. 
+El artículo fue desarrollado en **Overleaf**.
 - **Motor**: LuaLaTeX.
-- **Paquetes**: Se incluyen todos los archivos de estilo (`.cls`), fuentes (`Fonts/`) y configuración (`Setup/`) necesarios para la reproducción fiel del formato *Disquisitio Elementalis*.
-
-Para editarlo localmente o en Overleaf:
-1. Sube la carpeta raíz al dashboard de Overleaf.
-2. Asegúrate de seleccionar **Menu > Compiler > LuaLaTeX**.
+- **Configuración**: Se incluyen archivos `.cls`, carpetas de fuentes y bibliografía. Para compilar, asegúrese de seleccionar LuaLaTeX en el menú de configuración de Overleaf o su editor local.
 
 ## 🔬 Resumen de Hallazgos
-El estudio demuestra que la interpolación global es insuficiente para datos con alta variabilidad, mientras que los Splines Cúbicos proporcionan la estabilidad y suavidad necesaria para identificar crisis asincrónicas en la seguridad pública de México.
+El estudio demuestra la inestabilidad de la interpolación polinómica global ante datos con alta variabilidad. Se propone el uso de Splines Cúbicos para garantizar la suavidad necesaria en la identificación de crisis de seguridad asincrónicas y la cuantificación del impacto social acumulado.
 
 ---
 **Autor:** Vicente Chavarría Gámez  
